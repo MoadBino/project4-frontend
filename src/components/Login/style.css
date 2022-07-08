@@ -1,0 +1,42 @@
+body {
+}
+
+.ChildLogin {
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child1 {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(182, 174, 174, 0.39);
+  align-items: center;
+  border-radius: 15px;
+  display: flex;
+  height: 700px;
+}
+
+.child2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  align-items: center;
+}
+
+.loginbutt {
+  border-radius: 10px;
+  width: 350px;
+  height: 60px;
+}
+
+.loginInput {
+  width: 600px;
+  border-radius: 10px;
+  height: 50px;
+  text-align: center;
+}

@@ -1,0 +1,32 @@
+.addnews{
+    display: flex;
+    justify-content: center;
+    height: 800px;
+}
+
+.newsinput{
+    width: 400px;
+    height: 200px;
+    font-size: larger;
+}
+
+.addNewsChild{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    height: 800px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

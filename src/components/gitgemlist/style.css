@@ -1,0 +1,135 @@
+body {
+  background-color: black;
+}
+
+.gamename {
+  color: aliceblue;
+}
+
+.mainCardsDiv {
+  width: 350px;
+  background-color: rgb(80, 75, 75);
+  border-radius: 15px;
+  text-align: center;
+  border-style: outset;
+  border-color: rgb(177, 168, 168);
+}
+.mainGamelist {
+  display: flex;
+  gap: 100px;
+}
+.gamesimg {
+  border-radius: 10px;
+  width: 350px;
+  height: 250px;
+}
+
+.gamedetalis {
+  margin-left: 60px;
+}
+
+.gamesdetalis {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+.genres {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  color: rgba(255, 255, 255, 0.885);
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.relased {
+  width: 150px;
+}
+.relasedd {
+  margin-right: 60px;
+}
+.playtime {
+  width: 10px;
+}
+.mainbuttons {
+  display: flex;
+  flex-direction: column;
+  height: 1px;
+  position: sticky;
+  gap: 60px;
+  width: 150px;
+}
+
+.test {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 2500px;
+  gap: 60px;
+}
+
+.sssss {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainsearchinput {
+  display: flex;
+  justify-items: center;
+  justify-items: center;
+}
+.searchinput {
+  display: flex;
+  justify-items: center;
+  width: 100vh;
+  margin-left: 33vh;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+text-align: center;
+  height: 30px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 70px;
+  color: aliceblue;
+  background-color: black;
+  font-size: 20px;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.addgame {
+  display: flex;
+}
+
+.iconimg {
+  width: 40px;
+}
+.gamename {
+  color: white;
+  text-align: center;
+
+}
+
+
+.gamedetalischild{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  margin-left: 60px;
+}
+
+.myCardsDiv{
+  width: 350px;
+  background-color: rgb(80, 75, 75);
+  border-radius: 15px;
+  border-style: outset;
+  border-color: rgb(177, 168, 168);
+}

@@ -1,0 +1,45 @@
+.addgame{
+    display: flex;
+    justify-content: center;
+}
+
+
+.addgamechild{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.addgameinput{
+    border-radius: 10px;
+    width: 600px;
+    height: 70px;
+    text-align: center;
+    font-size: larger;
+}
+
+
+.addphoto{
+background-color: white;
+width: 600px;
+height: 30px;
+text-align: center;
+font-size: larger;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

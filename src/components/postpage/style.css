@@ -1,0 +1,162 @@
+.addPostMain {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 41px;
+}
+
+.img {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+}
+
+.mainimgAndName {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imgAndName {
+  margin-top: 15px;
+  margin-left: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.buttins{
+  width:60px;
+  border-radius: 5px;
+  float: right;
+}
+.mainDaiv {
+  border-style: outset;
+  border-color: rgb(105, 100, 100);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0);
+  width: 950px;
+  margin-top: 100px;
+}
+.postImg {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 950px;
+  height: 600px;
+  border-radius: 20px;
+}
+
+.postsDiv {
+  display: flex;
+  width: 950px;
+  background-color: rgb(24, 26, 27);
+  flex-direction: column-reverse;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.tokenAddpost {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.whitespace {
+  display: flex;
+  justify-content: space-between;
+}
+.whitespaceimh {
+  position: sticky;
+  top: 0;
+  height: 1200px;
+  width: 300px;
+}
+.whitespaceim {
+  height: 1200px;
+  width: 300px;
+}
+.posttext {
+  color: white;
+}
+.imgAndNameChild {
+  display: flex;
+  gap: 30px;
+}
+.commentImgSndName{
+  display: flex;
+
+  gap: 20px;
+}
+
+
+.commentername{
+  color: white;
+}
+
+.comment{
+  color: white;
+}
+
+.butons{
+  float: left;
+  margin-top: 20px;
+}
+
+.inputt{
+  height: 25px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+.postinput{
+  width: 500px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+
+
+.addpostbutton{
+  border-radius: 10px;
+}
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
